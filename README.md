@@ -14,6 +14,15 @@
 --- Project Name: webscraper
 
 --- Project Description: This is a webscraper to scrape the premier league table and produce various stats from the data
+	- Stats printed to console:
+		- Most appearances: player with most appearances this season, and the amount
+		- Most sub appearances: player with most appearances this season, and the amount
+		- Yellow cards: player with most red cards this season, and the amount
+		- Red cards: player with most red cards this season, and the amount
+		- Top Scorer: player with most goals scored this season, and the amount
+		- Squad average ages: squads with the youngest & oldest average age in years
+	- Tweet team info: select team to scrape from the league table, and tweet that out based on tweet configuration
+		
 
 --- Installation:
 
