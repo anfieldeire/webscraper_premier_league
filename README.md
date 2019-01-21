@@ -21,7 +21,7 @@
 		- Red cards: player with most red cards this season, and the amount
 		- Top Scorer: player with most goals scored this season, and the amount
 		- Squad average ages: squads with the youngest & oldest average age in years
-	- Tweet team info: select team to scrape from the league table, and tweet that out based on tweet configuration
+	- Tweet team info: select team to scrape from the league table, and tweet that out based on tweet configuration1
 		
 
 --- Installation:
