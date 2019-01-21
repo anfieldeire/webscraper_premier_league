@@ -18,6 +18,6 @@
 --- Installation:
 
 	1. Install the prerequisites from pip
-	2. Create your own credentials.py to link to tweet_send
+	2. Create your own credentials.py to link to tweet_send (see credentials_example)
 	3. Run webscraper.py (Input a valid premier league team at the prompt)
 	4. Check your twitter to ensure the tweet goes out from the program
