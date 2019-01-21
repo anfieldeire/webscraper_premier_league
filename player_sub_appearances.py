@@ -70,7 +70,7 @@ def get_max(lst, i, key_func=None):
     return [res[0], res[i]]
 
 data = apps_convert_toint()
-
+print("\n")
 print("The player with most sub appearances is: ")
 
 result = (get_max(data,2, lambda x: int(x[2])))

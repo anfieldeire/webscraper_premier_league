@@ -43,7 +43,7 @@ def get_max(lst, i, key_func=None):
     return [res[0], res[i]]
 
 data = yellow_cards_convert_toint()
-
+print("\n")
 print("The premier league player with the most yellow cards is:")
 result = (get_max(data,1, lambda x: int(x[1])))
 print("{} with {} yellow cards".format(result[0],result[1]))

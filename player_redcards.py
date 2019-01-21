@@ -43,7 +43,7 @@ def get_max(lst, i, key_func=None):
     return [res[0], res[i]]
 
 data = red_cards_convert_toint()
-
+print("\n")
 print("The player with the most red cards is:")
 result = (get_max(data,1, lambda x: int(x[1])))
 print("{} with {} red cards".format(result[0],result[1]))

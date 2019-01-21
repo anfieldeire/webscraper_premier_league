@@ -55,6 +55,7 @@ def get_max(lst, i, key_func=None):
 
 data = apps_convert_toint()
 
+print("\n")
 print("The player with most premier league appearances is: ")
 
 result = (get_max(data,1, lambda x: int(x[1])))

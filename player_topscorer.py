@@ -40,7 +40,8 @@ def get_max(lst, i, key_func=None):
 
 data = goals_convert_toint()
 
-print("Premier league top goal scorer is: ")
+print("\n")
+print("The premier league top goal scorer is: ")
 
 result = (get_max(data,1, lambda x: int(x[1])))
 
